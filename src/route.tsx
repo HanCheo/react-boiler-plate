@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Home, About, NotFound } from './page';
 
-const App = () => {
+const PageRouter = () => {
   return (
     <BrowserRouter>
       <Switch>
@@ -14,4 +14,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default PageRouter;
